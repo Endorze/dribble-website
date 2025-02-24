@@ -1,0 +1,19 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.title {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}

@@ -14,7 +14,11 @@ const Mainsection = () => {
         <Container>
             <BreakingNews />
             <FeaturedContent />
-            <CategoryArticle category={"sport"}/>
+            <CategoryArticle category={"sport"} title={"Sports"}/>
+            <CategoryArticle category={"entertainment"} title={"Entertainment"}/>
+            <CategoryArticle category={"crime"} title={"Crime"}/>
+            <CategoryArticle category={"sweden"} title={"Sweden News"}/>
+            <CategoryArticle category={"world"} title={"Worldwide News"}/>
         </Container>
     </div>
 }
