@@ -11,7 +11,23 @@
 }
 
 .iconWrap img {
-    height: 40px;
+    height: 20px;
     width: auto;
     border-radius: 50%;
+}
+
+.phoneButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 140px;
+    border: 1px solid black;
+    padding: 0 10px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.phoneButton img {
+    height: 15px;
 }

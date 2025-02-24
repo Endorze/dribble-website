@@ -1,0 +1,25 @@
+.featured {
+    display: flex;
+    flex: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    text-align: left;
+    gap: 20px;
+}
+
+.featuredContent {
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.sideContent {
+    max-width: 300px;
+    width: 100%;
+}
+
+.featuredContent img {
+    max-width: 100%;
+}
