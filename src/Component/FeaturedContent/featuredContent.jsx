@@ -1,4 +1,5 @@
 import { articles } from "../../assets/data/data";
+import ArticleImage from "../ArticleImage/articleImage";
 import RecentNews from "../RecentNews/recentNews";
 import styles from "./featuredContent.module.css"
 
@@ -20,7 +21,9 @@ const FeaturedContent = () => {
                 </div>
             ))}
                <div className={styles.sideContent}>
-                    <RecentNews numberOfNews={8} title={"Honorable Mentions"}/>
+                {articles.slice(0, 2).map((item, index) => (
+                    <ArticleImage key={index} imagePath={item.image} newsTitle={item.headline} newsText={item.deck}/>
+                ))}
                </div>
         </div>
     )

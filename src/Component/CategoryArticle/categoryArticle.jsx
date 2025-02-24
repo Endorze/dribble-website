@@ -1,8 +1,14 @@
 import { articles } from "../../assets/data/data"
-const CategoryArticle = () => {
+
+const CategoryArticle = ({category}) => {
+
+    const filteredArticles = articles.filter(item => item.category === category).slice(0, 3);
+
     return (
         <>
-            {articles.map((item, index) => <p>{item.headline}</p>)}
+            {filteredArticles.map((item, index) => (
+                <p key={index}>{item.headline}</p>
+                ))}
         </>
     )
 }
