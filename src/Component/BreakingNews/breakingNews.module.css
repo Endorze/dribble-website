@@ -1,0 +1,16 @@
+.breakingNews {
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.breakingWrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    max-width: 1220px;
+    width: 100%;
+    justify-content: space-evenly;
+}
