@@ -1,0 +1,12 @@
+.newsItem {
+    border-bottom: 2px solid lightgray;
+    display: inline-block;
+    flex-direction: column;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}

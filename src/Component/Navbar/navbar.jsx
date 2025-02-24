@@ -2,7 +2,7 @@ import styles from "./navbar.module.css"
 
 const Navbar = () => {
     return <div className={styles.navbar}>
-            <img src="/src/images/instagram.png"></img>
+            <img src="/images/instagram.png"></img>
             <a>Home</a>
             <a>International</a>
             <a>Business</a>
